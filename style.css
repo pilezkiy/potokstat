@@ -1,0 +1,99 @@
+body{
+	font-size:8pt;
+	color:#000;
+	background: #fff;
+	font-family: tahoma;
+}
+.ptk-loans{
+	border-collapse: collapse;
+	width:100%;
+	box-sizing: border-box;
+	font-size: 10pt;
+}
+
+.ptk-loan{
+	cursor: pointer;
+}
+
+.ptk-loan:hover td {
+	background: #99CCFF!important;
+	color:#000;
+}
+
+.ptk-loan__number{
+	font-size: 1.4em;
+}
+
+.ptk-loans thead th {
+	background: #99CCFF;
+	color:#000;
+	font-weight:bold;
+	text-align: center;
+	border:1px solid #333;
+	padding: 1px 5px;
+}
+
+.ptk-loans tbody td {
+	text-align: left;
+	border:1px solid #333;
+	padding: 1px 5px;
+}
+
+.ptk-loans tbody tr:nth-child(2n) td{
+	background: #eee;
+}
+
+.ptk-loan_failed td{
+	background: #FF9999!important;
+}
+
+.ptk-form{
+	background: #eee;
+	padding:10px;
+	border: 1px solid #ddd;
+	width:400px;
+}
+
+.ptk-form button{
+	background: #ddd;
+	color:#000;
+	padding:5px 15px;
+	font-size:1.5em;
+	margin:5px 0;
+}
+
+.ptk-loan_success td {
+	background: #CCFFCC!important;
+}
+
+.ptk-loan__operations {
+	background: #fff!important;
+	display: none;
+}
+
+.ptk-loan__operations>td{
+	background: #fff!important;
+}
+
+table.ptk-loan-ops {
+	min-width: 600px;
+	font-size: 9pt;
+	border-collapse: collapse;
+	color:#000;
+	margin:5px;
+}
+
+table.ptk-loan-ops th, table.ptk-loan-ops td{
+	border:1px solid #ccc;
+	padding: 3px 10px;
+	background: #fff!important;
+}
+
+table.ptk-loan-ops th{
+	background: #eee!important;
+	font-weight: bold;
+}
+
+.ptk-loan-ops__sum {
+	text-align: right!important;
+}
